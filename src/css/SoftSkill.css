@@ -1,0 +1,69 @@
+#softskill {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.softskillHeader {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.softskillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(248, 248, 245);
+    margin: 0;
+    text-align: center;
+}
+
+.softskillContent {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.softskillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0;
+    list-style: none;
+    max-width: 800px;
+}
+
+.softskillItem {
+    background: #2e2e2e;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.softskillItem:hover {
+    transform: scale(1.05);
+    background: #3b3b3b;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .softskillItem {
+        width: 100%;
+        text-align: center;
+    }
+
+    .softskillTitle {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,51 @@
+#idiomas {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#idiomas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: rgb(252, 252, 251);
+}
+
+#idiomas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#idiomas li {
+    font-size: 1.2rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #333;
+    color: #ccc;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    #idiomas h2 {
+        font-size: 2rem;
+    }
+
+    #idiomas li {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #idiomas h2 {
+        font-size: 1.7rem;
+    }
+
+    #idiomas li {
+        font-size: 0.95rem;
+    }
+}
